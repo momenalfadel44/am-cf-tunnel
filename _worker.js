@@ -10,13 +10,13 @@ import { connect } from 'cloudflare:sockets';
 
 // Generate your own UUID using the following command in PowerShell:
 // Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '23617fe3-d086-42fd-8e10-85ce0daaa723';
+let userID = '3cb38e6e-af2d-470e-86ce-3ab83af79038';
 
 // Proxy IPs to choose from
 let proxyIPs = [
-	'proxyip.aliyun.fxxk.dedyn.io',
-	'proxyip.aliyun.fxxk.dedyn.io',
-	'proxyip.aliyun.fxxk.dedyn.io'
+	'proxyip.jp.fxxk.dedyn.io',
+	'proxyip.jp.fxxk.dedyn.io',
+	'172.64.85.40'
 ];
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
