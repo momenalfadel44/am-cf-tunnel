@@ -14,7 +14,7 @@ let userID = '2928d83a-ca75-4d52-b437-fa78c7601378';
 
 // Proxy IPs to choose from
 let proxyIPs = [
-	'cdn.xn--b6gac.eu.org',
+	'proxyip.digitalocean.fxxk.dedyn.io',
 	'cdn-all.xn--b6gac.eu.org',
 	'workers.cloudflare.cyou'
 ];
